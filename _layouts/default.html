@@ -81,6 +81,22 @@
 			<article class="content">
 				{{ content }}
 			</article>
+			<div class="page-footer">
+				{% assign pages = site.docs | sort: 'order' %}
+				{% assign count = pages | size | minus: 1 %}
+				{% for i in (0..count) %}
+					{% if pages[i] == page %}
+						{% assign prev = i | minus: 1 %}
+						{% assign next = i | plus: 1 %}
+					{% endif %}
+				{% endfor %}
+				<!--{% if prev >= 0 %}
+					<a href="{{ site.baseurl }}{{ pages[prev].url }}" class="prev"><-- {{ pages[prev].title }}</a>
+				{% endif %}-->
+				{% if next <= count %}
+					Next: <a href="{{ site.baseurl }}{{ pages[next].url }}" class="next">{{ pages[next].title }}</a>
+				{% endif %}
+			</div>
 		</section>
 
 		<script>

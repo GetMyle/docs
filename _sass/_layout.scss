@@ -210,6 +210,15 @@ header {
 	}
 }
 
+.page-footer {
+	display: block;
+	width: auto;
+	overflow: hidden;
+	padding: 0 25px 20px;
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+
 nav,
 header > form {
 	display: none;
