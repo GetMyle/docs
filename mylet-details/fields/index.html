@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Jekyll v3.3.1">
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		<link type="application/atom+xml" rel="alternate" href="https://long-pig.cloudvent.net/feed.xml" title="Mylet Development Guide" />
+		<!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Mylet fields - Mylet Development Guide</title>
+<meta property="og:title" content="Mylet fields" />
+<meta name="description" content="The Mylet details screen is used to create new or update an existing mylet:  to create click Create a mylet button on the Mylets screen  to update click edit button on a specific mylet on the Mylets screen" />
+<meta property="og:description" content="The Mylet details screen is used to create new or update an existing mylet:  to create click Create a mylet button on the Mylets screen  to update click edit button on a specific mylet on the Mylets screen" />
+<link rel="canonical" href="https://long-pig.cloudvent.net/mylet-details/fields/" />
+<meta property="og:url" content="https://long-pig.cloudvent.net/mylet-details/fields/" />
+<meta property="og:site_name" content="Mylet Development Guide" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-12-16T03:05:54-07:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Mylet fields",
+    "datePublished": "2016-12-16T03:05:54-07:00",
+    "description": "The Mylet details screen is used to create new or update an existing mylet:  to create click Create a mylet button on the Mylets screen  to update click edit button on a specific mylet on the Mylets screen",
+    "logo": "https://long-pig.cloudvent.net/siteicon.png",
+    "url": "https://long-pig.cloudvent.net/mylet-details/fields/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+
+		
+	</head>
+
+	<body>
+		<header>
+			<h1>
+				<a href="/"><img src="/images/emblem.svg" width="40" height="40" alt="Mylet Development Guide logo"></a>
+				Mylet Development Guide
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav class="full-navigation">
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/">Welcome</a>
+					</li>
+				</ul>
+
+				<ul>
+					
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/overview/what-is-mylet/">Overview</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/overview/what-is-mylet/">What is mylet?</a></li>
+								
+									<li class="nav-item "><a href="/overview/required-skills/">Required skills</a></li>
+								
+									<li class="nav-item "><a href="/overview/become-a-developer/">Become a MYLE developer</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/dev-portal/the-portal/">Development portal</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/dev-portal/the-portal/">The portal</a></li>
+								
+									<li class="nav-item "><a href="/dev-portal/mylets/">Mylets</a></li>
+								
+									<li class="nav-item "><a href="/dev-portal/records/">Records</a></li>
+								
+									<li class="nav-item "><a href="/dev-portal/publishers/">Publishers</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level current">
+							
+							<a href="/mylet-details/fields/">Mylet details</a>
+							<ul>
+								
+									<li class="nav-item current"><a href="/mylet-details/fields/">Mylet fields</a></li>
+								
+									<li class="nav-item "><a href="/mylet-details/host/">Mylet host</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/publishing/sandbox/">Publishing</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/publishing/sandbox/">Sandbox</a></li>
+								
+									<li class="nav-item "><a href="/publishing/market/">Myle market</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/api/reference/">API</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/api/reference/">API Reference & Examples</a></li>
+								
+							</ul>
+						</li>
+					
+				</ul>
+
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/changelog/">Change Log</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main">
+			<div class="page-header">
+				<h2>Mylet details</h2>
+				<h3>Mylet fields</h3>
+			</div>
+			<article class="content">
+				<p>The Mylet details screen is used to create new or update an existing mylet:</p>
+<ul>
+  <li>to create click <code class="highlighter-rouge">Create a mylet</code> button on <a href="/dev-portal/mylets">the Mylets screen</a></li>
+  <li>to update click <code class="highlighter-rouge">edit</code> button on a specific mylet on <a href="/dev-portal/mylets">the Mylets screen</a></li>
+</ul>
+
+<p><img src="/images/mylet-details-fields1.png" alt="" />
+<img src="/images/mylet-details-fields2.png" alt="" /></p>
+
+<p>Toolbar buttons:</p>
+<ul>
+  <li><code class="highlighter-rouge">Save</code> - saves changes</li>
+  <li><code class="highlighter-rouge">Run</code> - publishes to sandbox and runs right away in browser</li>
+  <li><code class="highlighter-rouge">Publish to Sandbox</code> - publishes to sandbox; see the <a href="/publishing/sandbox">Publishing to sandbox article</a> for more details</li>
+  <li><code class="highlighter-rouge">Publish to Market</code> - publishes to <a href="https://cloud.getmyle.com/market">MYLE market</a>; see the <a href="/publishing/market">Publishing to market article</a> for more details</li>
+</ul>
+
+<p>Fields:</p>
+<ul>
+  <li><code class="highlighter-rouge">RDNS</code> - mylet identifier within sandbox environment, read-only</li>
+  <li><code class="highlighter-rouge">Title</code> and <code class="highlighter-rouge">Icon</code> - mylet title and icon visible to users</li>
+  <li><code class="highlighter-rouge">Summary</code>, <code class="highlighter-rouge">Description</code>, <code class="highlighter-rouge">Category</code>, <code class="highlighter-rouge">Version</code>, <code class="highlighter-rouge">Build</code> and <code class="highlighter-rouge">Icon</code> - mylet info for <a href="https://cloud.getmyle.com/market">MYLE market</a></li>
+  <li><code class="highlighter-rouge">Mylet host</code> - mylet end-points to register together with a secret; see the <a href="/mylet-details/host">Mylet host article</a> for more details</li>
+  <li><code class="highlighter-rouge">Key-phrases</code> - list of phrases that trigger the mylet hook execution</li>
+</ul>
+
+			</article>
+			<div class="page-footer">
+				
+				
+				
+				<!--
+					<a href="/dev-portal/publishers/" class="prev"><-- Publishers</a>
+				-->
+				
+					Next: <a href="/mylet-details/host/" class="next">Mylet host</a>
+				
+			</div>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+	</body>
+</html>
