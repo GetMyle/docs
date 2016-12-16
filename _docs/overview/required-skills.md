@@ -4,8 +4,8 @@ category: Overview
 order: 2
 ---
 
-A mylet consists of front-end and back-end:
- - front-end is HTML, CSS, JavaScript and anything that can be run in browser
- - back-end is run by [node.js](https://nodejs.org/)
+Usually a mylets consist of a front and a back-end:
+ - the front-end is HTML, CSS, JavaScript and anything that can be run in browser
+ - the back-end is anything that follows [API requirements](https://getmyle.github.io/api/#mylet)
 
-As it's seen major development time is spent writing JavaScript code.
+Please check out our [mylet examples](/api/reference) of how they could look like.

@@ -9,10 +9,10 @@ show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product documentation template for Jekyll.
+description: Mylet Development Guide.
 author:
-  name:
-  email:
+  name: Mikalai Silivonik
+  email: mikalai@getmyle.com
   twitter: # twitter username without the @ symbol
 social:
   name: Mylet Development Guide

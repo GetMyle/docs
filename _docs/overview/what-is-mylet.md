@@ -4,6 +4,11 @@ category: Overview
 order: 1
 ---
 
-Mylet is a custom user app that can be run in context of user's MYLE account in smart-phone and in browser and also perform some lightweight server code.
+A mylet is a web app that is hosted somewhere in Internet and exposes HTTP end-points that MYLE back-end understands. There are two end-points supported:
 
-You can think of a mylet as of a tool that transforms user's data into desired output. Users install mylets through MYLE market.
+ 1. UI - required - is called to display mylet UI in a smart-phone or in a browser
+ 2. Hook - optional - is called when there is a new record associated with the mylet; the association is done by mylet key-phrases
+
+Mylet developers register such apps in MYLE using [mylet development portal](/dev-portal/the-portal).
+
+You can think of a mylet as of an app that transforms user's data into desired output. Users install mylets through [MYLE market](https://cloud.getmyle.com/market).
